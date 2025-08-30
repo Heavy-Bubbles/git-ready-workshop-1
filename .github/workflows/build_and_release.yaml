@@ -16,4 +16,4 @@ jobs:
         node-version: 24
     - id: s03
       uses: actions/checkout@v5
-      run: echo "after " && ls -l
+      
