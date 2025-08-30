@@ -9,7 +9,7 @@ jobs:
     - id: s01
       run: echo "github ${{ github.ref_name }}"
     # setup environment
-      run: echo "before " && ls -l
+    - run: echo "before " && ls -l
     - id: s02
       uses: actions/setup-node@v4
       with:
